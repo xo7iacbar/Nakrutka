@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homenav"
+        android:icon="@drawable/homebutton"
+        android:title="asosiy" />
+
+    <item
+
+        android:id="@+id/profilnav"
+        android:icon="@drawable/usr1"
+        android:title="profil" />
+
+</menu>

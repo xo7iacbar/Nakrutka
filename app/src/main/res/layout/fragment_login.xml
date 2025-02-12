@@ -5,9 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".LoginFragment"
-    android:background="#1B5000">
-
-
+    android:background="@drawable/fon">
 
     <ImageView
         android:padding="20dp"
@@ -15,11 +13,13 @@
         android:id="@+id/login2img"
         android:layout_width="400dp"
         android:layout_height="200dp"
-        android:src="@drawable/login2rasm"
+        android:src="@drawable/password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -58,6 +58,7 @@
     </LinearLayout>
 
 <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/royxatdanotishbtn"
   android:layout_marginRight="20dp"
     android:layout_marginLeft="20dp"
     android:background="@drawable/shape_btn"
@@ -69,5 +70,19 @@
     android:textStyle="bold"
     android:textSize="20dp"
     android:textColor="#282A27"/>
+
+    <TextView
+        android:id="@+id/otgantxt"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="siz oldin ro'yxatdan o'tganmisiz"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/royxatdanotishbtn"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
